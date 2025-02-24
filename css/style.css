@@ -4965,7 +4965,7 @@ img{
 .testimonial-section-two{
 	position:relative;
 	overflow:hidden;
-	padding:110px 0px 100px;
+	padding:0px 0px 100px;
 }
 
 .testimonial-section-two.style-two{
@@ -5719,15 +5719,16 @@ img{
 
 .banner-section-three .content-column .inner-column{
 	position:relative;
-	padding-top:150px;
+	padding-top:70px;
 }
 
 .banner-section-three .content-column .inner-column h2{
 	position:relative;
 	color:#06092d;
-	font-size:55px;
-	font-weight:800;
-	line-height:1.2em;
+	font-size:45px;
+	font-weight:700;
+	line-height:1.3em;
+	padding-bottom: 1rem;
 }
 
 .banner-section-three .content-column .pattern-layer-one{
@@ -5776,7 +5777,7 @@ img{
 
 .banner-section-three .image-column .image-two{
 	position:absolute;
-	right:0px;
+	right:90px;
 	bottom:0px;
 	box-shadow:0px 20px 15px rgba(0,0,0,0.15);
 }
@@ -8272,7 +8273,7 @@ img{
 .cource-detail-banner-section .content-box .course-info li .icon{
 	position:absolute;
 	left:0px;
-	top:0px;
+	top:5px;
 }
 
 .cource-detail-banner-section .content-box .development{
@@ -9051,6 +9052,7 @@ img{
 	position:relative;
 	color:#000000;
 	font-size:16px;
+	margin-top: 1rem;
 	padding:16px 26px;
 	border-radius:6px;
 	font-weight:500;
@@ -13685,7 +13687,7 @@ img{
 	margin-bottom:25px;
 	padding:6px 20px 7px;
 	display:inline-block;
-	background-color:#71d6c5;
+	background-color: #FF6392;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -14087,9 +14089,9 @@ img{
 .banner-section-five .content-column .inner-column h1{
 	color:#0c0d24;
 	font-weight:700;
-	line-height:1em;
+	line-height:1.2em;
 	margin-bottom:35px;
-	font-size:85px;
+	font-size:75px;
 	font-family: 'Glory', sans-serif;
 }
 
