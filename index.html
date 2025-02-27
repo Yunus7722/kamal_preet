@@ -587,7 +587,29 @@
 
 	
 	
-	
+<section class="blog-page-section">
+    <div class="pattern-layer-one" style="background-image: url(images/icons/icon-5.png)"></div>
+    <div class="pattern-layer-two" style="background-image: url(images/icons/icon-6.png)"></div>
+    <div class="pattern-layer-three" style="background-image: url(images/icons/icon-4.png)"></div>
+    <div class="auto-container">
+        <!-- Page Breadcrumb -->
+        <ul class="page-breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Blogs</li>
+        </ul>
+        <div class="content-box">
+            <h2>Latest Art Blogs & Stories</h2>
+            <div class="text">
+                Dive into our curated collection of art blogs where we share artist interviews, creative process insights, and trends in the art world. Explore inspiring stories and in-depth articles that celebrate creativity.
+            </div>
+        </div>
+        
+    </div>
+    <!-- Add this inside the outer-container div -->
+        <div class="row clearfix p-lr" id="blogs-container">
+            <!-- Blog posts will be injected here dynamically -->
+        </div>
+</section>
 	
 	
 	
@@ -931,6 +953,10 @@
 <script src="js/nav-tool.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/script.js"></script>
+
+<!-- Include Firebase and fetch-blogs.js -->
+<script type="module" src="./firebase_custom_files/firebase-config.js"></script>
+<script type="module" src="js/fetch_blogs.js"></script>
 
 </body>
 
