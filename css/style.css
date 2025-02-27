@@ -191,6 +191,65 @@ h6{
 	font-size:18px;
 }
 
+
+.shimmer-q {
+	background: linear-gradient(90deg, #f6f7f8 25%, #edeef1 50%, #f6f7f8 75%);
+	background-size: 200% 100%;
+	animation: shimmer-animation 1.5s infinite linear;
+}
+
+.shimmer-title { height: 20px; width: 60%; margin-bottom: 10px; }
+.shimmer-subtitle { height: 15px; width: 40%; margin-bottom: 20px; }
+.shimmer-text { height: 10px; width: 80%; margin-bottom: 10px; }
+.shimmer-image { height: 200px; width: 100%; margin-bottom: 10px; }
+
+@keyframes shimmer-animation {
+	0% { background-position: -200% 0; }
+	100% { background-position: 200% 0; }
+}
+
+/* shimmer */
+/* Shimmer Effect */
+.shimmer {
+    background: linear-gradient(90deg, #f6f7f8 25%, #edeef1 50%, #f6f7f8 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Blog Shimmer Skeleton */
+.blog-shimmer {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-shimmer .image {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.blog-shimmer .text {
+    height: 20px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.blog-shimmer .text.short {
+    width: 60%;
+}
+
+
 .auto-container{
 	position:static;
 	max-width:1200px;
@@ -207,6 +266,11 @@ h6{
 	margin:0 auto;
 	width:100%;
 	min-width:300px;
+}
+
+.p-lr{
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 ul,li{
@@ -1776,9 +1840,9 @@ img{
 }
 
 .header-style-two .header-upper .logo-box{
-	padding:17.5px 0px;
+	/* padding:17.5px 0px; */
 	padding-left:12px;
-	background-color:#ff6392;
+	/* background-color:#ff6392; */
 }
 
 .header-style-two .main-menu,
@@ -5945,7 +6009,7 @@ img{
 .page-title-section{
 	position:relative;
 	padding-bottom:170px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .page-title-section .icon-layer-one{
@@ -6386,7 +6450,7 @@ img{
 	position:relative;
 	overflow:hidden;
 	padding-bottom:240px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .user-profile-section .pattern-layer-one{
@@ -8154,7 +8218,7 @@ img{
 	position:relative;
 	overflow:hidden;
 	padding-bottom:60px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .cource-detail-banner-section .pattern-layer-one{
@@ -9142,7 +9206,7 @@ img{
 	position:relative;
 	padding-top:0px;
 	padding-bottom:0px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .blog-classic{
@@ -9355,7 +9419,7 @@ img{
 	position:relative;
 	font-size:14px;
 	color:#666666;
-	padding:0px 0px;
+	padding:10px 0px;
 	padding-left:90px;
 	min-height:100px;
 	margin-bottom:25px;
@@ -9371,7 +9435,7 @@ img{
 .sidebar .popular-posts .post .post-thumb{
 	 position:absolute;
 	 left:0px;
-	 top:0px;
+	 top:15px;
 	 width:70px;
 	 border-radius:50%;
 	overflow:hidden;
@@ -9662,7 +9726,7 @@ img{
 	position:relative;
 	overflow:hidden;
 	padding-bottom:120px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .blog-detail-banner-section .pattern-layer-one{
@@ -10156,7 +10220,7 @@ img{
 	position:relative;
 	padding-top:0px;
 	padding-bottom:100px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .contact-banner-section .pattern-layer-one{
@@ -10574,7 +10638,7 @@ img{
 	position:relative;
 	padding-top:0px;
 	padding-bottom:100px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .donate-banner-section .pattern-layer-one{
@@ -15474,7 +15538,7 @@ img{
 	position:relative;
 	padding-top:0px;
 	padding-bottom:115px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .page-title-section-two .pattern-layer-one{
@@ -15701,7 +15765,7 @@ img{
 	position:relative;
 	overflow:hidden;
 	padding-bottom:0px;
-	background-color:#f3fef9;
+	background-color:#FEF5F8;
 }
 
 .event-detail-banner-section:before{
